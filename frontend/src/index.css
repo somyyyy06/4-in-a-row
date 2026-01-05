@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: #f5f7fb;
+  color: #0f172a;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.container {
+  padding: 30px 60px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+button.primary {
+  background: #ff7a18;
+  border: none;
+  padding: 16px 36px;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background: #e66b12;
+}
