@@ -2,7 +2,9 @@
 nixPkgs = ["go"]
 
 [phases.build]
-cmds = ["go mod tidy"]
+cmds = [
+  "go build -o app cmd/server/main.go"
+]
 
 [start]
-cmd = "go run cmd/server/main.go"
+cmd = "./app"
